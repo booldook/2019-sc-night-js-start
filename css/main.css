@@ -4,3 +4,4 @@
 	.navi > li {float: left; padding: 0.5rem 1.5rem; position: relative; cursor: pointer;}
 		ul.subs {position: absolute; background-color: #666; width: 100%; display: none;}
 			.subs > li {padding: 0.5rem; border-bottom: 1px solid #aaa;}
+			.subs > li:hover {background-color: #ccc; color: #222;}
