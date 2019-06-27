@@ -1,0 +1,74 @@
+/* 
+Color : primary|danger|warning|info|success|muted|secondary|dark|light|body
+padding/margin : 1(4px, 0.25rem) | 2(8px, 0.5rem) | 3(16px, 1rem) | 4(24px, 1.5rem) | 5(36px, 2rem)
+*/
+
+/* 우선순위 */
+/* 태그 < 클래스 < 아이디 < 인라인코딩(style="color:red;") < color:red !important; */
+/*
+#box {background-color: chartreuse;}
+.box {background-color: blue;}
+#box > div {color: fuchsia;}
+.box > .txt1 {color: dodgerblue !important;}
+*/
+
+/* 기본세팅 */
+html, body {height: 100%;}
+div, ul, ol, li, dl, dt, dd, p, table, img, form {margin: 0; padding: 0;}
+ul, ol, li, dl, dt, dd {list-style: none;}
+
+.container, .container-fluid {margin: 0 auto; padding: 0;}
+.table {margin: 0;}
+.img {width: 100%;}
+
+/* 사용자 정의 */
+/*
+color: text-primary|text-danger .. 
+bg-color: bg-primary|bg-danger|bg-info ..
+margin: m-1,2,3,4,5 | mt-1,2,3,4,5 | mx-, my-
+padding: 상동
+border: border border-danger
+float: .row > .col-3 ..
+flex: d-flex, justify-content-center
+*/
+
+.c-1 {color: #111;}
+.c-2 {color: #222;}
+.c-3 {color: #333;}
+.c-4 {color: #444;}
+.c-5 {color: #555;}
+.c-6 {color: #666;}
+.c-7 {color: #777;}
+.c-8 {color: #888;}
+.c-9 {color: #999;}
+.c-a {color: #aaa;}
+.c-b {color: #bbb;}
+.c-c {color: #ccc;}
+.c-d {color: #ddd;}
+.c-e {color: #eee;}
+.c-f {color: #f1f1f1;}
+
+.f-025 {font-size: 0.25rem;}
+.f-05 {font-size: 0.5rem;}
+.f-075 {font-size: 0.75rem;}
+.f-1 {font-size: 1rem;}
+.f-125 {font-size: 1.25rem;}
+.f-15 {font-size: 1.5rem;}
+.f-175 {font-size: 1.75rem;}
+.f-2 {font-size: 2rem;}
+.f-3 {font-size: 3rem;}
+.f-4 {font-size: 4rem;}
+
+.lh-1 {line-height: 1;}
+.lh-12 {line-height: 1.2;}
+.lh-14 {line-height: 1.4;}
+.lh-15 {line-height: 1.5;}
+.lh-16 {line-height: 1.6;}
+.lh-18 {line-height: 1.8;}
+.lh-2 {line-height: 2;}
+
+
+.p-top {top:0;}
+.p-bottom {bottom:0;}
+.p-left {left:0;}
+.p-right {right:0;}

@@ -1,0 +1,23 @@
+html, body {margin: 0; padding: 0; font-size: 16px; color: #111; box-sizing: border-box; height: 100%;}
+div, p, ul, li, ol, dl, dd, dt, form, h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0; box-sizing: border-box;}
+ul, ol, li {list-style: none;}
+img {margin: 0; padding: 0; border: 0;}
+table, thead, tbody, tfoot, tr, td, th {border: 0; padding: 0; margin: 0;}
+table, td {border-spacing: 0; border-collapse: collapse;}
+input {box-sizing: border-box;}
+button {border: none;}
+
+/* 공통사항 */
+.clear:after {display: block; content: ""; clear: both;}
+.pointer {cursor: pointer;}
+.img {width: 100%;}
+
+.txt-red {color: red;}
+.txt-blue {color: blue;}
+.txt-orange {color: orange;}
+.txt-dark-blue {color: rgb(11, 34, 65);}
+
+.bg-red {background-color: red;}
+.bg-light-gray {background-color: #ccc;}
+.bg-dark-gray {background-color: #666;}
+.bg-gray {background-color: #999;}

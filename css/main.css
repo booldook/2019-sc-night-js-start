@@ -1,0 +1,6 @@
+.navis {padding: 0.5rem; background-color: #333; color: #fff; padding-right: 2rem;}
+.navis > .logo {float: left;}
+.navis > .navi {float: right;}
+	.navi > li {float: left; padding: 0.5rem 1.5rem; position: relative; cursor: pointer;}
+		ul.subs {position: absolute; background-color: #666; width: 100%; display: none;}
+			.subs > li {padding: 0.5rem; border-bottom: 1px solid #aaa;}
