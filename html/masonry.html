@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Masonry</title>
+	<link rel="stylesheet" href="../css/fa.min.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/masonry.css">
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/imagesloaded.pkgd.min.js"></script>
+	<script src="../js/masonry.pkgd.min.js"></script>
+</head>
+<body>
+	<ul class="wrap grid">
+		<li class="grid-sizer"></li>
+		<li class="grid-item"><img src="../img/5.jpg" alt="" class="img"></li>
+		<li class="grid-item"><img src="../img/1 (1).jpg" alt="" class="img"></li>
+		<li class="grid-item"><img src="../img/10 (1).jpg" alt="" class="img"></li>
+		<li class="grid-item"><img src="../img/11.jpg" alt="" class="img"></li>
+		<li class="grid-item"><img src="../img/4 (1).jpg" alt="" class="img"></li>
+		<li class="grid-item"><img src="../img/6.jpg" alt="" class="img"></li>
+		<li class="grid-item"><img src="../img/agency.jpg" alt="" class="img"></li>
+		<li class="grid-item"><img src="../img/course.jpg" alt="" class="img"></li>
+		<li class="grid-item"><img src="../img/hosting.jpg" alt="" class="img"></li>
+	</ul>
+	<script>
+	var $grid = $('.grid').imagesLoaded( function() {
+		$grid.masonry({
+			itemSelector: '.grid-item',
+			columnWidth: '.grid-sizer',
+  		percentPosition: true
+		});
+	});
+	</script>
+</body>
+</html>
